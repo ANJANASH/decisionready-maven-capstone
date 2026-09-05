@@ -26,14 +26,16 @@ Final supported tool outcomes:
 Core design principle:
   # Tools acquire evidence; they do not directly decide readiness.
 
-# Demo benchmark
-Case	Tool	Outcome
-A	    none	READY
-B	    none	NOT_READY
-C	    none	NOT_READY
-D	  external search	READY_WITH_CAVEATS
-E	  spreadsheet analysis	READY_WITH_CAVEATS
-Synthetic policy case	internal retrieval	branch validation
+## Demo benchmark
+
+| Case | Tool | Outcome |
+|---|---|---|
+| A | none | READY |
+| B | none | NOT_READY |
+| C | none | NOT_READY |
+| D | external search | READY_WITH_CAVEATS |
+| E | spreadsheet analysis | READY_WITH_CAVEATS |
+| Synthetic policy case | internal retrieval | branch validation |
 
 
 # Demo
